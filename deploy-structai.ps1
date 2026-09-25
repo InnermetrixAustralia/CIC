@@ -4,8 +4,7 @@
 
 # Paths
 $publish = "E:\work\TQ\Kepler\StructAI\StructAI.App\bin\Release\net8.0\publish\wwwroot"
-$deploy  = "E:\work\TQ\Kepler\StructAI\StructAI.App\wwwroot.deploy"
-# $docs    = "E:\work\TQ\Repos\StructAI-App\docs"
+$deploy  = "E:\work\TQ\Kepler\StructAI\StructAI.App\wwwroot.deploy.CIC"
 $docs    = "E:\work\TQ\Repos\InnermetrixAustralia-CIC\docs"
 
 Write-Host "=== Building StructAI (Release) ==="
@@ -29,5 +28,4 @@ git push
 cd "E:\work\TQ\Kepler\StructAI\StructAI.App"
 
 Write-Host "=== Deployment complete ==="
-# Write-Host "Open: https://paulhotchin.github.io/StructAI-App/"
 Write-Host "Open: https://InnermetrixAustralia.github.io/CIC"
