@@ -9,10 +9,10 @@ $reposName   = "CIC"
 # Paths
 $srcRoot   = "E:\work\TQ\Kepler\StructAI\StructAI.App"
 $reposRoot = "E:\work\TQ\Repos"
+$tempRoot  = "E:\work\TQ\TempRepos"
 
+$publish = "$tempRoot\$id\wwwroot"
 $deploy  = "$srcRoot\wwwroot.deploy.$id"
-
-$publish = "$reposRoot\$accountName-$reposName\wwwroot"
 $docs    = "$reposRoot\$accountName-$reposName\docs"
 
 Write-Host "=== Building StructAI (Release) ==="
@@ -26,6 +26,9 @@ robocopy $publish $docs /MIR
 
 Write-Host "=== Overlaying deploy-specific files ==="
 robocopy $deploy $docs /E
+
+Write-Host "=== Cleaning temporary publish folder ==="
+Remove-Item "$tempRoot\$id" -Recurse -Force
 
 Write-Host "=== Committing and pushing to GitHub ==="
 cd "$reposRoot\$accountName-$reposName"
