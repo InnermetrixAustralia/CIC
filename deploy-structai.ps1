@@ -10,8 +10,9 @@ $reposName   = "CIC"
 $srcRoot   = "E:\work\TQ\Kepler\StructAI\StructAI.App"
 $reposRoot = "E:\work\TQ\Repos"
 
-$publish = "E:\work\TQ\Repos\Deploy\$id\wwwroot"
 $deploy  = "$srcRoot\wwwroot.deploy.$id"
+
+$publish = "$reposRoot\$accountName-$reposName\wwwroot"
 $docs    = "$reposRoot\$accountName-$reposName\docs"
 
 Write-Host "=== Building StructAI (Release) ==="
