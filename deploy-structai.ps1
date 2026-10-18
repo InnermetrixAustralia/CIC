@@ -24,6 +24,13 @@ try {
     # dotnet publish must run in the project folder, wherever this script was started from
     Set-Location $srcRoot
 
+    # VS Code's "JavaScript Debug Terminal" / auto-attach injects debugger settings into every
+    # node.exe it can reach, which breaks the emscripten node used by the WASM link step
+    # (ERR_INSPECTOR_NOT_AVAILABLE). Clear them for this process only.
+    foreach ($name in @("NODE_OPTIONS", "VSCODE_INSPECTOR_OPTIONS")) {
+        Remove-Item "Env:$name" -ErrorAction SilentlyContinue
+    }
+
     Write-Host "=== Building StructAI (Release) ==="
     dotnet publish -c Release -p:PublishProfile=$id
     if ($LASTEXITCODE -ne 0) {
