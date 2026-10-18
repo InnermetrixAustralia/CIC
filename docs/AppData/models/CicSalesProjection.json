@@ -1,0 +1,137 @@
+{
+  "ProjectionYear": 2027,
+  "PriceItems": [
+    {
+      "Enabled": "Y",
+      "Name": "ADVanced Insights",
+      "Price": 545,
+      "ProfitFactor": 0.45,
+      "Units": 1,
+      "Period": 0
+    },
+    {
+      "Enabled": "Y",
+      "Name": "ADV Contract",
+      "Price": 545,
+      "ProfitFactor": 0.88,
+      "Units": 1,
+      "Period": 0
+    },
+    {
+      "Enabled": "Y",
+      "Name": "Client ADV Repeat",
+      "Price": 545,
+      "ProfitFactor": 0.45,
+      "Units": 16,
+      "Period": 2
+    },
+    {
+      "Enabled": "Y",
+      "Name": "Client ADV Repeat Contract",
+      "Price": 545,
+      "ProfitFactor": 0.88,
+      "Units": 16,
+      "Period": 2
+    },
+    {
+      "Enabled": "Y",
+      "Name": "ADV & Debrief",
+      "Price": 1325,
+      "ProfitFactor": 0.77,
+      "Units": 1,
+      "Period": 0
+    },
+    {
+      "Enabled": "Y",
+      "Name": "ADV & Debrief Contract",
+      "Price": 1325,
+      "ProfitFactor": 0.95,
+      "Units": 1,
+      "Period": 0
+    },
+    {
+      "Enabled": "Y",
+      "Name": "Client ADV & Debrief Repeat",
+      "Price": 1325,
+      "ProfitFactor": 0.77,
+      "Units": 16,
+      "Period": 2
+    },
+    {
+      "Enabled": "Y",
+      "Name": "Client ADV & Debrief Repeat Contract",
+      "Price": 1325,
+      "ProfitFactor": 0.95,
+      "Units": 16,
+      "Period": 2
+    },
+    {
+      "Enabled": "Y",
+      "Name": "ADV Pilot of 3",
+      "Price": 1635,
+      "ProfitFactor": 0.45,
+      "Units": 1,
+      "Period": 0
+    },
+    {
+      "Enabled": "Y",
+      "Name": "ADV Pilot of 3 Contract",
+      "Price": 1635,
+      "ProfitFactor": 0.88,
+      "Units": 1,
+      "Period": 0
+    },
+    {
+      "Enabled": "Y",
+      "Name": "ADV Pilot of 6",
+      "Price": 3000,
+      "ProfitFactor": 0.4,
+      "Units": 1,
+      "Period": 0
+    },
+    {
+      "Enabled": "Y",
+      "Name": "ADV Pilot of 6 Contract",
+      "Price": 3000,
+      "ProfitFactor": 0.87,
+      "Units": 1,
+      "Period": 0
+    },
+    {
+      "Enabled": "Y",
+      "Name": "Coaching Retainer",
+      "Price": 1250,
+      "ProfitFactor": 1.0,
+      "Perennial": true,
+      "Units": 1,
+      "Period": 3,
+      "PeriodLocked": true
+    },
+    {
+      "Enabled": "Y",
+      "Name": "Client Account with Proprietary AI",
+      "Price": 6750,
+      "ProfitFactor": 0.40,
+      "Perennial": true,
+      "Units": 1,
+      "Period": 4,
+      "PeriodLocked": true
+    },
+    {
+      "Enabled": "Y",
+      "Name": "Workshop (Full Day)",
+      "Price": 5000,
+      "ProfitFactor": 1.0,
+      "Units": 8,
+      "Period": 2
+    },
+    {
+      "Enabled": "Y",
+      "Name": "Seminar (Half Day)",
+      "Price": 2500,
+      "ProfitFactor": 1.0,
+      "Units": 8,
+      "Period": 2
+    }
+  ]
+}
